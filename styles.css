@@ -1,0 +1,37 @@
+#head1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+body{
+    background-color: lightgrey;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#photo1{
+    background-color: white;
+    width: 40%;
+    height:fit-content;
+    display: flex;
+    margin-top: 10px;
+}
+
+#photo1head{
+    display:flex;
+}
+
+
+    
+
+
+#photo1date{
+    align-items: right;
+}
