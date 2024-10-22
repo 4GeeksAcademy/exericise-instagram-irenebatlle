@@ -4,34 +4,51 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 60px;
     width: 100%;
     vertical-align: middle;
+
 }
 
 body{
     background-color: lightgrey;
-
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#feed{
+    display: block;
+
 
 }
 
-#photo1{
+#photo1, #photo2, #photo3, #photo4{
     background-color: white;
-    width: 40%;
-    height:fit-content;
+    height:min-content;
+    width: min-content;
+    margin-top: 40px; 
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+
+
+#photo1head, #photo2head, #photo3head, #photo4head{
+    height: 50px;
     display: flex;
-    margin-top: 10px;
+    justify-content: space-between;
 }
 
-#photo1head{
-    display:flex;
+#photo1comment, #photo2comment, #photo3comment, #photo4comment{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
-
-    
-
-
-#photo1date{
-    align-items: right;
+#photo1date, #photo2date, #photo3date, #photo4date{
+    color: grey;
 }
